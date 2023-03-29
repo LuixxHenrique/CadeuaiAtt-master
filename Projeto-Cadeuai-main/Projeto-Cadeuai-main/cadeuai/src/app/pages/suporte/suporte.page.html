@@ -19,60 +19,96 @@
     <ion-list class="pergunta">
 
         <ion-item (click)="mudar_click()" lines="full" class="pergunta2">
-          <ion-label class="question">Como utilizar o App?</ion-label>
+          <ion-label class="question" text-wrap>Como utilizar o App?</ion-label>
           <ion-icon name="add-circle" slot="end"
         style="color: #FF8E80;"></ion-icon>
         </ion-item>
 
         <ion-item *ngIf="clicado" lines="none" class="resposta">
           <ion-icon name="return-down-forward" slot="start"></ion-icon>
-          <ion-label>ta achando que sou google?</ion-label>
+          <ion-label text-wrap> Para utilizar o app primeiro deve-se informar se o 
+            estabelecimento possui parceria com o CadeUai procurando por
+            um QrCode do CadeUai, caso tenha basta seguir os seguintes passos:
+            
+             1 - Abra a camera do app
+             2 - Aponte-a para o QrCode
+             3 - Espere o mapa carregar 
+              Com o mapa aberto voce conseguira perceber sua localização
+             4 - Agora voce pode procurar pelo local desejado das seguintes formas:
+              4.1 - através da barra de pesquisa escrevendo o nome da loja 
+              4.2 - abrindo a lista de lojas e procurando pela desejada 
+             5 - Após pesquisar basta clicar na loja e irá abrir a rota da sua 
+            localização ate a loja selecionada
+             6 - Agora apenas siga a rota e pronto, voce chegou ao seu destino!
+            </ion-label>
         </ion-item>
 <!---  =========== Uôni ============ -->
         <ion-item (click)="mudar_click()" lines="full" class="pergunta2" >
-          <ion-label class="question">Como escanear o QrCode?</ion-label>
+          <ion-label class="question" text-wrap>Como escanear o QrCode?</ion-label>
           <ion-icon name="add-circle" slot="end"
         style="color: #FF8E80;"></ion-icon>
         </ion-item>
 
         <ion-item *ngIf="clicado" lines="none" class="resposta">
           <ion-icon name="return-down-forward" slot="start"></ion-icon>
-          <ion-label>sei nao meu mano</ion-label>
+          <ion-label text-wrap>1 - Abra a camera do app
+            2 - Aponte-a para o QrCode
+            3 - E pronto QrCode escaneado!</ion-label>
         </ion-item>
 <!---  =========== Tio ============ -->
         <ion-item (click)="mudar_click()" lines="full" class="pergunta2">
-          <ion-label class="question">Para que serve a lista?</ion-label>
+          <ion-label class="question" text-wrap>Para que serve a lista?</ion-label>
           <ion-icon name="add-circle" slot="end"
         style="color: #FF8E80;"></ion-icon>
         </ion-item>
 
         <ion-item *ngIf="clicado" lines="none" class="resposta">
           <ion-icon name="return-down-forward" slot="start"></ion-icon>
-          <ion-label>pra ter coisas dentro</ion-label>
+          <ion-label text-wrap>A lista foi criada para que voce possa observar de forma geral todas 
+            as lojas existentes no estabelecimento, podendo tambem procurar por
+            uma loja e seleciona-la e ver a rota da sua localização até ela.</ion-label>
         </ion-item>
 <!---  =========== Truí ============ -->
         <ion-item (click)="mudar_click()" lines="full" class="pergunta2">
-          <ion-label class="question">Para que serve as novidades?</ion-label>
+          <ion-label class="question" text-wrap>Para que serve as novidades?</ion-label>
           <ion-icon name="add-circle" slot="end"
         style="color: #FF8E80;"></ion-icon>
         </ion-item>
   
         <ion-item *ngIf="clicado" lines="none" class="resposta">
           <ion-icon name="return-down-forward" slot="start"></ion-icon>
-          <ion-label>pra mostrar coisas antigas</ion-label>
+          <ion-label text-wrap>Para que serve as novidades?
+            As novidades tem a intenção de divulgar possiveis promoções das lojas 
+           dentro do shopping, fazendo com que a busca dos clientes por produtos 
+           com boas ofertas seja facilitado.</ion-label>
         </ion-item>
 <!---  =========== Fuor ============ -->
         <ion-item (click)="mudar_click()" lines="full" class="pergunta2">
-          <ion-label class="question">Como adicionar o meu próprio mapa?</ion-label>
+          <ion-label class="question" text-wrap>Como adicionar o meu próprio mapa?</ion-label>
           <ion-icon name="add-circle" slot="end"
         style="color: #FF8E80;"></ion-icon>
         </ion-item>
   
         <ion-item *ngIf="clicado" lines="none" class="resposta">
           <ion-icon name="return-down-forward" slot="start"></ion-icon>
-          <ion-label>só tu criar um meu fi</ion-label>
+          <ion-label text-wrap>Caso tenha se interessado pelo nosso aplicativo e deseja utiliza-lo em seu estabelecimento,
+             entre no nosso site e siga os passos para entrar em contato conosco.
+             Site: www.Cadeuai.com.br</ion-label>
         </ion-item>
 <!---  =========== Faivi ============ -->
+        <ion-item (click)="mudar_click()" lines="full" class="pergunta2">
+          <ion-label class="question" text-wrap>Mais dúvidas? Informe no nosso site</ion-label>
+          <ion-icon name="add-circle" slot="end"
+        style="color: #FF8E80;"></ion-icon>
+        </ion-item>
+  
+        <!-- <ion-item *ngIf="clicado" lines="none" class="resposta">
+          <ion-icon name="return-down-forward" slot="start"></ion-icon>
+          <ion-label text-wrap>Caso tenha se interessado pelo nosso aplicativo e deseja utiliza-lo em seu estabelecimento,
+             entre no nosso site e siga os passos para entrar em contato conosco.
+             Site: www.Cadeuai.com.br</ion-label>
+        </ion-item> -->
+<!---  =========== Six ============ -->
     </ion-list>
 
 </ion-content>
