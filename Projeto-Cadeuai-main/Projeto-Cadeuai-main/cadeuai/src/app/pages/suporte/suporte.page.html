@@ -59,8 +59,11 @@
         <ion-item *ngIf="clicado" lines="none" class="resposta">
           <ion-icon name="return-down-forward" slot="start"></ion-icon>
           <ion-label text-wrap>1 - Abra a camera do app
+            <br>
             2 - Aponte-a para o QrCode
-            3 - E pronto QrCode escaneado!</ion-label>
+            <br>
+            3 - E pronto QrCode escaneado!
+          </ion-label>
         </ion-item>
 <!---  =========== Tio ============ -->
         <ion-item (click)="mudar_click()" lines="full" class="pergunta2">
@@ -84,8 +87,8 @@
   
         <ion-item *ngIf="clicado" lines="none" class="resposta">
           <ion-icon name="return-down-forward" slot="start"></ion-icon>
-          <ion-label text-wrap>Para que serve as novidades?
-            As novidades tem a intenção de divulgar possiveis promoções das lojas 
+          <ion-label text-wrap>
+           As novidades tem a intenção de divulgar possiveis promoções das lojas 
            dentro do shopping, fazendo com que a busca dos clientes por produtos 
            com boas ofertas seja facilitado.</ion-label>
         </ion-item>
@@ -108,14 +111,7 @@
           <ion-icon name="add-circle" slot="end"
         style="color: #FF8E80;"></ion-icon>
         </ion-item>
-  
-        <!-- <ion-item *ngIf="clicado" lines="none" class="resposta">
-          <ion-icon name="return-down-forward" slot="start"></ion-icon>
-          <ion-label text-wrap>Caso tenha se interessado pelo nosso aplicativo e deseja utiliza-lo em seu estabelecimento,
-             entre no nosso site e siga os passos para entrar em contato conosco.
-             Site: www.Cadeuai.com.br</ion-label>
-        </ion-item> -->
-<!---  =========== Six ============ -->
+      
     </ion-list>
 
 </ion-content>
